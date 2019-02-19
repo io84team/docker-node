@@ -1,0 +1,59 @@
+{
+  "name": "vue-mars",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "serve": "vue-cli-service serve",
+    "build": "vue-cli-service build",
+    "lint": "vue-cli-service lint"
+  },
+  "dependencies": {
+    "axios": "^0.18.0",
+    "core-js": "^2.6.1",
+    "element-theme-chalk": "^2.4.11",
+    "element-ui": "^2.4.11",
+    "nprogress": "^0.2.0",
+    "store": "^2.0.12",
+    "tailwindcss": "^0.6.6",
+    "vue": "^2.5.17",
+    "vue-router": "^3.0.2",
+    "vuex": "^3.0.1",
+    "vuex-router-sync": "^5.0.0",
+    "weui": "^1.1.3"
+  },
+  "devDependencies": {
+    "@vue/cli": "^3.0.3",
+    "@vue/cli-plugin-babel": "^3.2.0",
+    "@vue/cli-plugin-eslint": "^3.2.1",
+    "@vue/cli-service": "^3.2.0",
+    "compression-webpack-plugin": "^2.0.0",
+    "eslint-config-prettier": "^3.3.0",
+    "eslint-config-standard": "^12.0.0",
+    "eslint-plugin-html": "^4.0.6",
+    "eslint-plugin-import": "^2.14.0",
+    "eslint-plugin-node": "^7.0.1",
+    "eslint-plugin-promise": "^4.0.1",
+    "eslint-plugin-standard": "^4.0.0",
+    "eslint-plugin-vue": "^4.7.1",
+    "mockjs": "^1.0.1-beta3",
+    "node-sass": "^4.10.0",
+    "sass-loader": "^7.0.3",
+    "uglifyjs-webpack-plugin": "^1.3.0",
+    "vue-cli-plugin-element": "^1.0.0",
+    "vue-cli-plugin-vconsole": "^1.0.1",
+    "vue-template-compiler": "^2.5.17"
+  },
+  "postcss": {
+    "plugins": {
+      "autoprefixer": {}
+    }
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions",
+    "not ie <= 8"
+  ],
+  "resolutions": {
+    "terser": "3.14.1"
+  }
+}
