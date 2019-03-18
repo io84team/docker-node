@@ -10,12 +10,13 @@
   "dependencies": {
     "axios": "^0.18.0",
     "core-js": "^2.6.5",
-    "element-theme-chalk": "^2.5.4",
-    "element-ui": "^2.5.4",
+    "element-theme-chalk": "^2.6.1",
+    "element-ui": "^2.6.1",
     "nprogress": "^0.2.0",
     "store": "^2.0.12",
     "tailwindcss": "^0.7.4",
-    "vue": "^2.6.6",
+    "vue": "^2.6.8",
+    "vue-avatar": "^2.1.7",
     "vue-router": "^3.0.2",
     "vuex": "^3.1.0",
     "vuex-router-sync": "^5.0.0",
@@ -41,7 +42,7 @@
     "uglifyjs-webpack-plugin": "^2.1.1",
     "vue-cli-plugin-element": "^1.0.1",
     "vue-cli-plugin-vconsole": "^1.0.1",
-    "vue-template-compiler": "^2.6.6"
+    "vue-template-compiler": "^2.6.8"
   },
   "postcss": {
     "plugins": {
